@@ -1,4 +1,3 @@
-//#include <Time.h>  
 
 char c;
 long count;
@@ -8,9 +7,7 @@ void setup()
 {
   
   pinMode(3, OUTPUT);  
-//  pinMode()
   Serial.begin(57600);  
-//  modem.begin();
   Serial.println("Start"); 
     freq = 500; 
 }  
